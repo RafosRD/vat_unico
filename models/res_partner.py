@@ -6,5 +6,5 @@ class vat_unico_res_partner(models.Model):
     _inherit = 'res.partner'
 
     _sql_constraints = [
-        ('name_uniq', 'unique(vat)', u"Ya fue registrada una empresa o persona con este numero de RNC/Cédula"),
+        ('name_uniq', 'unique(vat)', "Ya fue registrada una empresa o persona con este numero de RNC/Cedula"),
     ]
