@@ -8,3 +8,7 @@ class vat_unico_res_partner(models.Model):
     _sql_constraints = [
         ('name_uniq', 'unique(vat)', "Ya fue registrada una empresa o persona con este numero de RNC/Cedula"),
     ]
+
+    _sql_constraints = [
+     ('name_uniq', 'unique(name)', 'Name must be unique!'),
+     ]
