@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from openerp import models
 
 class vat_unico_res_partner(models.Model):
